@@ -24,12 +24,25 @@ Copiamos el comando que nos aparece como ejemplo en la web de AWS al ir al apart
 
 
 Instalamos nginx desde la consola:
+
 > sudo amazon-linux-extras list | grep nginx
+
+
 > sudo amazon-linux-extras enable nginx1
+
+
 > sudo yum clean metadata
+
+
 > sudo yum -y install nginx
+
+
 > sudo su -
+
+
 > systemctl enable nginx
+
+
 > systemctl start nginx
 
 
