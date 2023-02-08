@@ -4,16 +4,21 @@
 ## Creación de instancia en AWS
 
 Desde la página de AWS lanzaremos una instancia dentro de la consola de EC2. 
-Esta tendrá como nombre *nginx*. Además, crearemos un key pair al que nombraremos *aisr22* y activaremos las opciones de permitir tráfico http y https desde internet.
+Esta tendrá como nombre *nginx*. 
+Además, crearemos un key pair al que nombraremos *aisr22* y activaremos las opciones de permitir tráfico http y https desde internet.
+
 Creamos la instancia con estas configuraciones realizadas.
 
 
 ## Conexión con la instancia
 
 Seleccionamos la instancia y seleccionamos en Conectar.
+
 Nos vamos al apartado de Cliente SSH.
 
+
 Con esto, abrimos un terminal para trabajar en él.
+
 Modificamos los permisos de asir22.pem con el siguiente comando:
 
 > chmod 400 asir22.pem
